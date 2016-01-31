@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerNight", "PokerNight\PokerNight.csproj", "{2CAB8D4D-B351-4BA5-B0C8-DA5998888A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerNight.Tests", "PokerNight.Tests\PokerNight.Tests.csproj", "{00EA84F6-AA1A-483B-967D-C4E9D76252CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CAB8D4D-B351-4BA5-B0C8-DA5998888A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAB8D4D-B351-4BA5-B0C8-DA5998888A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAB8D4D-B351-4BA5-B0C8-DA5998888A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAB8D4D-B351-4BA5-B0C8-DA5998888A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EA84F6-AA1A-483B-967D-C4E9D76252CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EA84F6-AA1A-483B-967D-C4E9D76252CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EA84F6-AA1A-483B-967D-C4E9D76252CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EA84F6-AA1A-483B-967D-C4E9D76252CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
