@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div ng-controller="GameTableController">
+    <ul> {{count()}}
+        <li ng-repeat="game in items">
+            <span ng-model="game.itemID">{{game.tableID}}</span>
+        </li>
+    </ul>
+</div>

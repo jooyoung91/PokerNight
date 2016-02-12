@@ -1,9 +1,6 @@
-﻿var PokerNightApp = angular.model('PokerNightApp', []);
+﻿var PokerNightApp = angular.module('PokerNightApp', []);
 
-
-/* Controller Binding */
-PokerNightApp.controller('GameTableController', GameTableController);
-PokerNightApp.factory('GameTableModule', function () {
+PokerNightApp.factory('GameTables', function () {
     var tables = {};
     tables.query = function () {
         return [
@@ -11,7 +8,7 @@ PokerNightApp.factory('GameTableModule', function () {
                 tableID: 1,
                 description: "All-in",
                 StatusID: 0
-            }, 
+            },
             {
                 tableID: 2,
                 description: "Final table",
@@ -25,4 +22,16 @@ PokerNightApp.factory('GameTableModule', function () {
         ]
 
     }
-})
+    return tables;
+});
+
+//PokerNightApp.controller('GameTableController', function ($scope, GameTables) {
+//    $scope.items = GameTables.query();
+//    $scope.count = function () {
+//        return $scope.items.length;
+
+//    }
+//});
+
+/* Controller Binding */
+//PokerNightApp.controller('GameTableController', GameTableController);

@@ -15,9 +15,10 @@ namespace PokerNight
                         "~/Scripts/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/PokerNightApp")
+                    .Include("~/Scripts/angular-min-1.2.20.js")
                     .IncludeDirectory("~/Scripts/Controllers", "*.js")
-                    .IncludeDirectory("~/Scripts/Modules", "*.js")
                     .Include("~/Scripts/PokerNightApp.js"));
+                    //.IncludeDirectory("~/Scripts/Modules", "*.js")
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
