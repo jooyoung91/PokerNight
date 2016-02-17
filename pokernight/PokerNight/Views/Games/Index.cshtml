@@ -4,10 +4,20 @@
 }
 
 <h2>Index</h2>
+
 <div ng-controller="GameTableController">
-    <ul> {{count()}}
+    <p>{{tableTitle | titleCase}}</p>
+    <ul>
         <li ng-repeat="game in items">
-            <span ng-model="game.itemID">{{game.tableID}}</span>
+            <span>{{game.tableID}}</span> : {{game.description}}
+        </li>
+
+    </ul>
+
+    <p>{{userTitle | titleCase}}</p>
+    <ul>
+        <li data-ng-repeat="user in users">
+            <span data-ng-bind="user.userID"></span> : <span data-ng-bind="user.userName"></span> - <span data-ng-bind="user.score | currency"></span>
         </li>
     </ul>
 </div>
