@@ -15,7 +15,7 @@ namespace PokerNight
                         "~/Scripts/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/PokerNightApp")
-                    .Include("~/Scripts/angular-min-1.2.20.js")
+                    .Include("~/Scripts/angular-min-1.5.0.js")
                     .IncludeDirectory("~/Scripts/Modules", "*.js")
                     .IncludeDirectory("~/Scripts/Controllers", "*.js")
                     .IncludeDirectory("~/Scripts/Utilities", "*.js")
