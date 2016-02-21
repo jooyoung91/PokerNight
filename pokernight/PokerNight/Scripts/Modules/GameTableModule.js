@@ -5,17 +5,23 @@
             {
                 tableID: 1,
                 description: "All-in",
-                StatusID: 0
+                statusID: 0,
+                buyInMondy: 20,
+                availableSpot: 8
             },
             {
                 tableID: 2,
                 description: "Final table",
-                StatusID: 0
+                statusID: 0,
+                buyInMondy: 15,
+                availableSpot: 6
             },
             {
                 tableID: 3,
                 description: "Women only",
-                StatusID: 0
+                statusID: 0,
+                buyInMondy: 10,
+                availableSpot: 4
             },
         ]
 

@@ -1,5 +1,5 @@
 ﻿var GameTableController = function ($scope, GameTablesFactory, UsersFactory) {
-    $scope.items = GameTablesFactory.query();
+    $scope.tables = GameTablesFactory.query();
     $scope.count = function () {
         return $scope.items.length;
 
